@@ -1,4 +1,7 @@
 class Reservation < ApplicationRecord
+
+  belongs_to :user, :optional => true
+  
   validates_presence_of :train_id, :seat_number, :booking_code
   validates_uniqueness_of :seat_number, :scope => :train_id
 
