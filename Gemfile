@@ -35,7 +35,7 @@ gem 'carrierwave'
 gem 'mini_magick'
 
 gem 'rack-mini-profiler'
-
+gem 'will_paginate'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
